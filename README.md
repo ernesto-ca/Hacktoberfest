@@ -22,9 +22,9 @@ GitHub repository URLs will reference both the username associated with the owne
 https://github.com/wir-coders/Hacktoberfest
 
 
-![screenshot-star](https://github.com/wir-coders/Community-Website/blob/master/star.png)
+![screenshot-star](https://github.com/wir-coders/Hacktoberfest/blob/master/star.png)
 
-![screenshot-fork](https://github.com/wir-coders/Community-Website/blob/master/fork.png)
+![screenshot-fork](https://github.com/wir-coders/Hacktoberfest/blob/master/fork.png)
 
 When you’re on the main page of a repository, you’ll see a button to "Star" and “Fork” the repository on the upper right-hand side of the page, underneath your user icon.
 
@@ -39,13 +39,13 @@ https://github.com/your-username/Hacktoberfest.git
 
 You can alternatively copy the URL by using the green “Clone or download” button from your repository page that you just forked from the original repository page. Once you click the button, you’ll be able to copy the URL by clicking the binder button next to the URL:
 
-![screenshot 73](https://user-images.githubusercontent.com/37223446/47234826-b495d780-d3f4-11e8-9077-859ed9078677.png)
+
+![screenshot 73](https://github.com/wir-coders/Hacktoberfest/blob/master/lp.png)
+
 
 Once we have the URL, we’re ready to clone the repository. To do this, we’ll combine the git clone command with the repository URL from the command line in a terminal window:
 
 `git clone https://github.com/your-username/Hacktoberfest.git`
-
-![screenshot 153](https://user-images.githubusercontent.com/37223446/47234624-0f7aff00-d3f4-11e8-81c4-9198e3e83860.png)
 
 ### 4. Create a New Branch
 

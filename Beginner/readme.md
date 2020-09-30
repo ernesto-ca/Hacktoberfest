@@ -139,4 +139,6 @@ At this point, you are ready to make a pull request to the original repository.
 
 Navigate to your forked repository, and press the “New pull request” button on your left-hand side of your Repo page.
 
+#### *If your desired language is not included in the repo then, add a language of your choice to the repo for contribution. If yoou want to contribute with your own projects, then you can contribute to Projects[https://github.com/wir-coders/Hacktoberfest/tree/master/Projects] repo.*
+
 # Hurray! You just got closer to completing your Hacktoberfest challenge.

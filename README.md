@@ -68,6 +68,7 @@ Once you enter the git `checkout` command, you will receive the following output
 ######  `Output:`
 #####  `Switched to branch 'new-branch' `
 
+![Whoohooo!](https://media3.giphy.com/media/sgswHaZw5yklq/giphy.gif?cid=ecf05e4752791acvsi719im8d4lib8z33uxbga6secdplwq2&rid=giphy.gif)
 
 At this point, you can now modify existing files or add new files to the project on your own branch.
 
@@ -138,4 +139,4 @@ At this point, you are ready to make a pull request to the original repository.
 Navigate to your forked repository, and press the “New pull request” button on your left-hand side of your Repo page.
 
 # Hurray! You just got closer to completing your Hacktoberfest challenge.
-
+![GIFT Swag](https://media1.giphy.com/media/SVYnISz8VwSFTsOX9k/giphy.gif?cid=ecf05e47qrva3ranwtyyetl4avyxgr9w3m4fm2gbwu75j2jf&rid=giphy.gif)

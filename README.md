@@ -140,3 +140,4 @@ Navigate to your forked repository, and press the “New pull request” button 
 
 # Hurray! You just got closer to completing your Hacktoberfest challenge.
 ![GIFT Swag](https://media1.giphy.com/media/SVYnISz8VwSFTsOX9k/giphy.gif?cid=ecf05e47qrva3ranwtyyetl4avyxgr9w3m4fm2gbwu75j2jf&rid=giphy.gif)
+Modified by @AVDiv

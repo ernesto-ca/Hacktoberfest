@@ -8,6 +8,6 @@ Email - bhaveshgarg151@gmail.com
 
 Your Interests / Tech Stack - Development
 
-Quote - "A person who \2764 to end sentences with ;"
+Quote - "A person who loves to end sentences with ;"
 
 

@@ -6,7 +6,7 @@ Academic Institution - SelfTaught University
 
 Email - anirbandey303@gmail.com  
 
-Your Interests / Tech Stack - Java
+Your Interests / Tech Stack - Java, Python
 
 Quote - "Programmers convert(caffine,code);"
 

@@ -60,4 +60,3 @@ if __name__ == '__main__':
     gp = GoldPrice()
     result = gp.fetch_data()
     print(result)
-

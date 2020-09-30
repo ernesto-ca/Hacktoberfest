@@ -10,7 +10,7 @@
 ###### Link to register: https://hacktoberfest.digitalocean.com/login
 Click on "Start Hacking" and add your GitHub account.
 
-![Screenshot-HFST](https://images.prismic.io/www-static/e6c04b47-bd9d-474a-9d25-ab143f47349e_Hacktoberfest2020.png?auto=compress,format)
+![Screenshot-HFST](https://cdn.devdojo.com/episode/images/September2020/hacktoberfest-2020.jpg)
 
 
 

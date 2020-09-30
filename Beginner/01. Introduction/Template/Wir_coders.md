@@ -1,13 +1,13 @@
-Name - Wir Coders
+Name - Bhavesh Garg
 
-Profile Image - yourname.jpg || yourname.png
+Profile Image - bhaveshgarg.jpg
 
-Academic Institution - MIT 
+Academic Institution - Chitkara University,Punjab
 
-Email - xxxx@gmail.com  
+Email - bhaveshgarg151@gmail.com  
 
-Your Interests / Tech Stack -
+Your Interests / Tech Stack - Reading Novels/ Java
 
-Quote - "Coding and life are similar since both need time to master."
+Quote - "A person who \2764 to end sentences with ;"
 
 

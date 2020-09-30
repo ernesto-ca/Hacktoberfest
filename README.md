@@ -8,7 +8,7 @@ Hacktober fest is a celebration open to everyone in the global community. It is 
 
 ### 1. Register yourself for Hacktoberfest
 ###### Link to register: https://hacktoberfest.digitalocean.com/login
-Click on "Start Hacking" and add your GitHub account.
+Click on "Start Hacking" and sign in with your GitHub account.
 
 ![Screenshot-HFST](https://images.prismic.io/www-static/e6c04b47-bd9d-474a-9d25-ab143f47349e_Hacktoberfest2020.png?auto=compress,format)
 

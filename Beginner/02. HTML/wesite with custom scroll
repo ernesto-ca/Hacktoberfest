@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1"> 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<style>
+    ::-webkit-scrollbar{
+        width: 1.1rem;
+        background:linear-gradient(20deg,dodgerblue,skyblue,powderblue);
+        perspective: 100px;
+    }
+::-webkit-scrollbar-thumb{
+    background-color: orangered;
+    border-radius: 20px;
+    border: 2px solid #262626;
+    } 
+::-webkit-scrollbar-corner { background: rgba(0,0,0,0.5); }
+  html{
+    scroll-behavior: smooth;
+  }
+body {
+  background-image: url("https://wallpaperset.com/w/full/e/5/2/453855.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+ font-family: cursive;
+  font-weight: bold 700;
+  overflow-x: hidden;
+}
+
+.sidenav{
+    word-spacing: 300px;
+    width: 100%;
+    padding: 4px 0;
+    top: -7%;
+    background-color: rgba(0, 0, 0, 0.95);
+    position: fixed;
+    border-radius: 6px;
+    border: 2px solid black;
+    font-size: 28px;
+    transition: 0.3s;
+    z-index: 2;
+}
+
+.sidenav:hover{
+    top: 0;
+    }
+
+.sidenav a{
+    display: inline-block;
+    padding: 2px 0;
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.4);
+}
+    
+.sidenav a:hover{
+    padding: 0 0;
+    color: rgba(255, 255, 255, 0.8);
+    border-bottom: 3px solid #ffd480;
+    border-radius: 5px;
+}
+    
+.fa-arrow-down{
+    position: fixed;
+    top: 0.5%;right: 0%;
+    z-index: 1;
+    font-size: 30px;
+    padding: 4px;
+    color: white;
+    background-color: #262626;
+    border-radius: 44%;
+    border: 3px solid #1a1a1a;
+}
+    
+#bio{
+  width:100%;
+  height:700px;
+  padding-top: 170px;
+  font-size: 25px;
+  background-image: url("https://images7.alphacoders.com/907/thumb-1920-907157.jpg");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+    
+h1{
+  height: 640px;
+  padding-top: 270px;
+  font-size: 70px;
+}
+    
+#gallery{
+  background-image: url(https://9walls.net/wp-content/uploads/2019/04/abstract-squares-in-blue-hd-high-definition-widescreen-wallpapers-free-download-mobile-pc-computer-desktop-tablet-android-high-resolution-backgrounds.jpg);
+  background-size: cover;
+padding: 5%;
+width: 100%;
+display: grid;
+grid-template-columns:calc((80%)/2) calc((80%)/2);
+grid-gap: 30px; 
+justify-content: center;
+}
+    
+#games{
+  font-size: 38px;
+display: grid;
+grid-template-columns:calc((90%)/2) calc((90%)/2);
+grid-gap: 30px; 
+justify-content: center;
+background-image: url('https://images.assetsdelivery.com/compings_v2/doozydo/doozydo1801/doozydo180103095.jpg');
+background-size: 52% 100%;
+}
+    
+#games p{
+    margin-top: 30%;
+}
+    
+#connect{
+  background-image:url("https://images2.alphacoders.com/506/506168.jpg");
+  background-size: cover;
+  width: 100%;
+  margin-left: ;
+}
+    
+form{
+  width: 97%;
+  height: 600px;
+  margin-left: 3%;
+  margin-top: 3%;
+  font-size: 18px;
+  text-align: center;
+}
+    
+input, textarea{
+  width: 30%;
+  margin-top: 5%;
+  background-color: transparent;
+  border: transparent;
+  border-bottom: 2px solid #333333;
+  margin-left: 3%;
+}
+
+input[contenteditable],textarea[contenteditable]{
+    outline: 0px solid transparent;
+}
+    
+::placeholder{
+    color: #262626;
+}
+label{
+    width: 33%;
+    margin-top: 2%;
+    font-size: 27px;
+}
+button{
+    margin: 3% 5% 2% 5%;
+    color:black;
+    background-color: transparent;
+    border: 2px solid #262626;
+}
+button[type=reset]:hover{
+    background-color: orangered;
+}
+button[type=submit]:hover{
+    background-color: green;
+}
+</style>
+</head>
+<body>
+<div class="sidenav" id="mysidenav">
+    <a href="#bio" style="margin-left: 2.5%;">Bio</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#games">Games</a>
+    <a href="#connect">Connect</a> 
+</div>
+<i class="fa fa-arrow-down"></i>
+<h1><center>Loading..</center></h1>
+
+<div id="bio">
+  <h2 align="center">Hallam Kalam ...</h2>
+  <center>These place is created to take a <br>relax from
+   your boring<br> life and 
+ have a fun.</center>
+</div>
+<br>
+<div id="gallery">
+  <a href="https://images.cnbctv18.com/wp-content/uploads/2020/07/jason-leung-poI7DelFiVA-unsplash-1-768x432.jpg">
+<img src="https://images.cnbctv18.com/wp-content/uploads/2020/07/jason-leung-poI7DelFiVA-unsplash-1-768x432.jpg" width="440px" height="250px">
+</a>
+<a href="https://sa.kapamilya.com/absnews/abscbnnews/media/ancx/food-n-drink/2019/26/bang1.jpg">
+<img src="https://sa.kapamilya.com/absnews/abscbnnews/media/ancx/food-n-drink/2019/26/bang1.jpg" width="440px" height="250px" style="margin-left: 4%;">
+</a>
+<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyar7sPBGYTr4J6DWTfnOOs1yHa6pBmHMytg&usqp=CAU">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQyar7sPBGYTr4J6DWTfnOOs1yHa6pBmHMytg&usqp=CAU" width="440px" height="250px">
+</a>
+<a href="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQh4hTKv50vl9JFE-pO9WOpoPJVodWLRZl0HQ&usqp=CAU">
+<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQh4hTKv50vl9JFE-pO9WOpoPJVodWLRZl0HQ&usqp=CAU" width="440px" height="250px" style="margin-left: 4%;">
+</a>
+</div>
+<br>
+<div id="games">
+  <p>" When I was able to get down the road aways and look back. I realised success. The key is to stay in the game. "</p>
+  <img src="https://www.loading.bar/img/games.jpg" width="670px" height="700px">
+</div>
+<br>
+<div id="connect">
+  <br>
+  <form>
+    <br>
+    <input type="text" name="ft name" placeholder="&nbsp;first name *" required value="" contenteditable>
+    <input type="text" name="lt name" placeholder="&nbsp;last name *" required value="" contenteditable><br>
+    <input type="email" name="email" placeholder="&nbsp;e-mail *" required value="" contenteditable>
+    <input type="text" name="f-game" placeholder="&nbsp;favourite game" value="" contenteditable><br>
+    <textarea name="enquiry" rows="3" placeholder="&nbsp; enquiry about *" required value="" contenteditable></textarea>
+    <label><sup>* </sup>Required</label>
+    <br>
+    <button type="submit" value="submit" onclick="alert('Connect successfull. We'll soon connect with yoou with your queries.')">Submit</button>
+    <button type="reset" value="reset" onclick="alert('warning: Your entered data will be lost...')">Reset</button>
+  </form>
+</div>
+</body>
+</html>

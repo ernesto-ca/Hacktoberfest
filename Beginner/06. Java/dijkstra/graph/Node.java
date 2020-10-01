@@ -2,6 +2,7 @@ package dijkstra.graph;
 
 import java.util.Collection;
 import java.util.LinkedHashSet;
+import java.util.Objects;
 
 public class Node implements Comparable<Node> {
 
@@ -24,6 +25,22 @@ public class Node implements Comparable<Node> {
   @Override
   public int hashCode() {
     return name.hashCode() + distance.hashCode() + seen.hashCode() + previous.hashCode();
+  }
+
+  @Override
+  public boolean equals(Object o) {
+    if (this == o) {
+      return true;
+    }
+    if (o == null || getClass() != o.getClass()) {
+      return false;
+    }
+    Node node = (Node) o;
+    return Objects.equals(distance, node.distance) &&
+        Objects.equals(seen, node.seen) &&
+        Objects.equals(previous, node.previous) &&
+        Objects.equals(edges, node.edges) &&
+        Objects.equals(name, node.name);
   }
 
   public void addEdge(Edge edge) {

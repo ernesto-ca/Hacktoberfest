@@ -6,7 +6,7 @@
 #include<process.h>
 #include<dos.h>
 
-void main()
+int main()
  {
     int gd=DETECT,gm;
     initgraph(&gd,&gm,"c:\\turboc3\\bgi");
@@ -211,6 +211,7 @@ for(i=0;i<15;i++)
   settextstyle(DEFAULT_FONT,0,2);
   outtextxy(540,80,"Bye !");
   getch();
+  return 0;
   }
 
 /* made by Anju Kumari */

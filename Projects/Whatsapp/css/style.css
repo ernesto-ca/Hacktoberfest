@@ -5,14 +5,14 @@
     display: grid;
     grid-template-columns: 35% 65%;
     grid-template-rows: 8% 7% auto 8%;
-    grid-template-areas: 
+    grid-template-areas:
                         " profile-top chat-name-top"
                         "search-box main-chat"
                         "chat-container main-chat"
-                        "chat-container chat-text-area";    
+                        "chat-container chat-text-area";
 }
 @media only screen and (max-width: 768px)
-{   
+{
     #main-container{
         height: 100vh;
         margin: 0;
@@ -20,14 +20,14 @@
         display: grid;
         grid-template-columns: auto;
         /* grid-template-rows: 8% 7% auto 8%; */
-        grid-template-areas: 
+        grid-template-areas:
                             " profile-top "
                             "search-box "
                             "chat-container"
                             "chat-name-top "
-                            "main-chat" 
+                            "main-chat"
                             "chat-text-area";
-    }    
+    }
 
 }
 
@@ -68,7 +68,7 @@
 .my{
     background:rgb(217, 255, 102);
     border: 1px solid rgb(217, 255, 102);
-    border-radius: 14px 14px 0 14px;
+    border-radius: 14px 14px 0;
     justify-content: end;
     justify-items: end;
 }
@@ -100,7 +100,7 @@
 #search-box{
     grid-area: search-box;
     display: grid;
-    align-items: center;  
+    align-items: center;
     
 }
 #search-box input{
@@ -108,7 +108,7 @@
       -moz-border-radius:10px;
       -webkit-border-radius:10px;
       margin-left: 20px;
-      margin-right: 20px;      
+      margin-right: 20px;
       border: 0;
       cursor: pointer;
 }
@@ -183,7 +183,7 @@
     -moz-border-radius:10px;
     -webkit-border-radius:10px;
     margin-left: 20px;
-    margin-right: 20px;      
+    margin-right: 20px;
     border: 0;
 }
 

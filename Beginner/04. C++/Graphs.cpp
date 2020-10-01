@@ -2,7 +2,6 @@
 using namespace std;
 
 class Graph {
-
 	int V;
 	vector<int> *adjList;
 	unordered_map<int, vector<pair<int, int>>> edgeList;

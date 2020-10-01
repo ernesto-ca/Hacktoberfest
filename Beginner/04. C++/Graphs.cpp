@@ -68,15 +68,12 @@ public:
 		bool *visited = new bool[V + 1] {0};
 		int *distance = new int[V + 1] {0};
 		int *parent = new int[V + 1] { -1};
-
 		q.push(src);
 		visited[src] = true;
-
 		while (!q.empty()) {
 			int node = q.front();
 			cout << node << " ";
 			q.pop();
-
 			for (int neighbor : adjList[node]) {
 				if (!visited[neighbor]) {
 					q.push(neighbor);
@@ -90,7 +87,6 @@ public:
 		for (int i = 0; i < V; i++) {
 			cout << i << " node having distance " << distance[i] << endl;
 		}
-
 		cout << endl;
 		int temp = des;
 		while (temp != -1) {
@@ -126,13 +122,12 @@ public:
 		for (int j = 0; j < V; j++) {
 			if (!vis[j]) {
 				i = dfsTopSort(i, j, vis, ordering);
-
 			}
 		}
-		// for (int n : ordering) {
-		// 	cout << n << ",";
-		// }
-		// cout << endl;
+		for (int n : ordering) {
+			cout << n << ",";
+		}
+		cout << endl;
 		return ordering;
 	}
 
@@ -140,7 +135,6 @@ public:
 		vector<int> topsort = topSort();
 		vector<int> dist (V, INF);
 		dist[start] = 0;
-
 		for (int i = 0; i < V; i++) {
 			int nodeIdx = topsort[i];
 			if (dist[nodeIdx] != INF) {
@@ -150,7 +144,6 @@ public:
 				}
 			}
 		}
-
 		for (int i = 0; i < V; i++) {
 			cout << "node " << i << " having distance " << dist[i] << endl;
 		}
@@ -173,7 +166,6 @@ public:
 				}
 			}
 		}
-
 		for (int i = 0; i < V; i++) {
 			cout << "node " << i << " having distance " << dist[i] << endl;
 		}
@@ -182,19 +174,12 @@ public:
 };
 
 int main() {
-
 	pair<int, int> edges[] = {{0, 1}, {1, 2}, {0, 4}, {4, 2}, {2, 5}, {2, 3}, {4, 3}, {3, 5}};
 	tuple<int, int, int> weightedEdges[] = {{0, 1, 3}, {0, 4, 10}, {1, 2, 5}, {4, 2, -4}, {4, 3, 11}, {2, 5, 5}, {2, 3, 6}, {3, 5, 2}};
 	pair<char, char> cities[] = {{'K', 'J'}, {'K', 'S'}, {'K', 'B'}, {'K', 'M'}, {'J', 'M'}, {'J', 'D'}, {'D', 'S'}};
 	tuple<int, int, int> edgesDijkstra[] = {{0, 1, 4}, {0, 2, 1}, {2, 1, 2}, {1, 3, 1}, {2, 3, 5}, {3, 4, 3}};
 
 	Graph g(5);
-	// for (int u = 0; u < 36; u++) {
-	// 	for (int dice = 1; dice <= 6; dice++) {
-	// 		int v = u + dice + board[u + dice];
-	// 		g.addEdge(u, v, false);
-	// 	}
-	// }
 
 	// for (auto e : edges) {
 	// 	g.addEdge(e.first, e.second, false);
@@ -205,7 +190,6 @@ int main() {
 		int v = get<1>(e);
 		g.addEdge(u, v, false);
 	}
-
 
 	// g.printList();
 	// cout << "----------" << endl;
@@ -226,6 +210,4 @@ int main() {
 	// g.topSort();
 	// g.dagShortestPath(0);
 	g.dijkstra(0);
-
-
 }

@@ -25,7 +25,7 @@ incY = dy/steps
 
 X = x0
 Y = y0
-i = 0 ;
+i = 0
 while i < steps:
     win.plotPixel(X,Y, "blue")
     Y = Y + incY

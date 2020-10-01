@@ -58,7 +58,7 @@ const gameBoard = (function () {
     }
 		boardState = []
     Game.start();
-	};
+	}
 	
 	function resetScore() {
 		score.reset();

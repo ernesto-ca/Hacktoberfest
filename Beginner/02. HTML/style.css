@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: 'Poppins', Arial, Helvetica, sans-serif;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+body {
+  background: lightblue;
+}
+
+body .container {
+  width: 80%;
+  margin: auto;
+  height: 80vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background: white;
+  -webkit-box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.2);
+          box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.2);
+}
+
+body .container h1 {
+  font-size: 4rem;
+}
+
+body .container p {
+  font-size: 1.2rem;
+}
+
+body .container a {
+  background: lightblue;
+  padding: 1rem 2rem;
+  margin: 2rem auto;
+  text-transform: uppercase;
+  font-size: 1.2rem;
+  -webkit-transition: -webkit-transform 300ms ease-in;
+  transition: -webkit-transform 300ms ease-in;
+  transition: transform 300ms ease-in;
+  transition: transform 300ms ease-in, -webkit-transform 300ms ease-in;
+}
+
+body .container a:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+/*# sourceMappingURL=style.css.map */

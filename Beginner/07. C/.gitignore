@@ -1,0 +1,3 @@
+#ignore C out file
+
+*.out

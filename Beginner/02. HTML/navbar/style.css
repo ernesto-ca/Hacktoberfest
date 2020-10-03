@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Rye&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body{
+  height: 100vh;
+  background-color:#f6e58d;
+  font-family: 'Rye', cursive;
+}
+
+.hack{
+  text-decoration: none;
+}
+
+.content{
+  margin-top: 150px;
+  text-align: center;
+  font-family: 'Rye', cursive;
+  font-size: 50px;
+}
+
+
+a,button{
+  /* font-family:'Montserrat', sans-serif; */
+  font-family: 'Rye', cursive;
+  color: #000;
+}
+
+.dropdown{
+  height: 10vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.products,
+.projects{
+  position:relative;
+}
+
+.projects ul,
+.products ul{
+  position: absolute;
+  background: #ffffff;
+  margin-top: 10px;
+  width: 200px;
+  height: 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  list-style: none;
+  border-radius: 5px;
+  visibility: hidden;
+  pointer-events: none;
+  transition: all 0.4s;
+  transform: translateY(-10px);
+}
+
+.projects a,
+.products a{
+  color:#000 ;
+  text-decoration: none;
+}
+
+.projects li,
+.products li{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.projects li:hover,
+.products li:hover{
+  background-color: #353b4869;
+}
+.dropdown button,
+.home{
+  background: none;
+  border: none;
+  color: #000;
+  text-decoration: none;
+  font-size: 19px;
+  cursor: pointer;
+}
+
+.dropdown button:hover,
+.home:hover{
+  color: #353b487c;
+}
+
+
+.projects button:focus+ul,
+.products button:focus+ul{
+  visibility: visible;
+  pointer-events: all;
+  transform: translateY(0);
+}

@@ -39,7 +39,7 @@ try:
 # If an error from the pymysql    
 except sql: #***change it to the appropriate error***
     print(sql)
- 
+
 # Commit your connection mith pymysql 
 # Close the connection 
 

@@ -41,11 +41,10 @@ for user in root:
 # If an error from the pymysql    
 #except e: ***change it to the appropriate error***
 #    print(sql)
- 
+
 # Commit your connection mith pymysql 
 # Close the connection 
 
 # Check the final time (this depends of the data size in the xml file and inserting in the data base)
 now = datetime.now()
 print(now)
-

@@ -3,12 +3,14 @@
 # Hope this will useful for you! - ernecto-ca
 
 # Imports to read a xml and time 
-import xml.etree.ElementTree as ET
+import defusedxml.cElementTree as goodET
 from datetime import datetime
 
-# Create the "tree" element of the xl
-tree = ET.parse('Users.xml')
-# Get the information of the tree 
+# Create the "tree" element of the xml
+tree = goodET.parse('Users.xml')
+goodET.iterparse('Users.xml')
+
+# Get the information of the xml 
 root = tree.getroot()
 
 # To check how long it took
@@ -18,8 +20,8 @@ print(now)
 # The main part of the sql
 sql = "INSERT INTO users VALUES ("
 
-try:
-   for user in root:
+#try: ***when it will insert in a data base****
+for user in root:
     sql = sql +"'"+str(user.get('Id')).replace("'","´")+"',"
     sql = sql +"'"+str(user.get('Reputation')).replace("'","´")+"',"
     sql = sql +"'"+str(user.get('CreationDate')).replace("'","´")+"',"
@@ -37,8 +39,8 @@ try:
     # then you need to execute the sql sentence with pymysql 
     print(sql)
 # If an error from the pymysql    
-except sql: #***change it to the appropriate error***
-    print(sql)
+#except e: ***change it to the appropriate error***
+#    print(sql)
  
 # Commit your connection mith pymysql 
 # Close the connection 
@@ -46,3 +48,4 @@ except sql: #***change it to the appropriate error***
 # Check the final time (this depends of the data size in the xml file and inserting in the data base)
 now = datetime.now()
 print(now)
+

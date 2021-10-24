@@ -1,5 +1,5 @@
 # Hacktoberfest
-Hacktober fest is a celebration open to everyone in the global community. It is held from October 1st to October 31st worldwide. It is a great oppurtunity/platform for people from beginner stage to professional developer to learn more about open source and contribute effectively for the same.IT is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio.
+Hacktober fest is a celebration open to everyone in the global community. It is held from October 1st to October 31st worldwide. It is a great opportunity/platform for people from beginner stage to professional developers to learn more about open source and contribute effectively for the same.IT is a month-long celebration of open source software run by DigitalOcean in partnership with GitHub and Twilio.
 
  
 ## Instructions:
@@ -83,8 +83,7 @@ Once you have modified existing files or added new files to the project, you can
 
 Next, we’ll want to record the changes that we made to the repository with the git commit command.
 
-*The commit message is an important aspect of your code contribution; it helps the other contributors fully understand the change you have made, why you made it, and how significant it is. Additionally, commit messages provide a historical record of the changes for the project at large, helping future contributors along the way.*
-
+*The commit message is an important aspect of your code contribution; it helps the other contributors fully understand the change you have made, why you made it, and how significant it is. Additionally, commit messages to provide a historical record of the changes for the project at large, helping future contributors along the way.*
 
 ![screenshot 155](https://user-images.githubusercontent.com/37223446/47235390-87e2bf80-d3f6-11e8-81c0-e01b7463d038.png)
 
@@ -102,7 +101,7 @@ If you have a very short message, you can record that with the -m flag and the m
 
 ### 5. Update Local Repository
 
-*While working on a project alongside other contributors, it is important for you to keep your local repository up-to-date with the project as you don’t want to make a pull request for code that will cause conflicts. To keep your local copy of the code base updated, you’ll need to sync changes.*
+*While working on a project alongside other contributors, it is important for you to keep your local repository up-to-date with the project as you don’t want to make a pull request for code that will cause conflicts. To keep your local copy of the codebase updated, you’ll need to sync changes.*
 
 We’ll first go over configuring a remote for the fork, then syncing the fork.
 
@@ -115,12 +114,12 @@ Next up, you’ll have to specify a new remote upstream repository for us to syn
 
 ![screenshot 74](https://user-images.githubusercontent.com/37223446/47235672-5f0efa00-d3f7-11e8-9e45-1af02d8b969b.png)
 
-In this example, // upstream // is the shortname we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the shortname.
+In this example, // upstream // is the short name we have supplied for the remote repository since in terms of Git, “upstream” refers to the repository that you cloned from. If you want to add a remote pointer to the repository of a collaborator, you may want to provide that collaborator’s username or a shortened nickname for the short name.
 
 ### 7. Sync the Fork
 
 Once you have configured a remote that references the upstream and original repository on GitHub, you are ready to sync your fork of the repository to keep it up-to-date.
-To sync your fork, from the directory of your local repository in a terminal window, you’ll have to use the // git fetch // command to fetch the branches along with their respective commits from the upstream repository. Since you used the shortname “upstream” to refer to the upstream repository, you’ll have to pass that to the command:
+To sync your fork, from the directory of your local repository in a terminal window, you’ll have to use the // git fetch // command to fetch the branches along with their respective commits from the upstream repository. Since you used the short name “upstream” to refer to the upstream repository, you’ll have to pass that to the command:
 
 ##### ` git fetch upstream `
 

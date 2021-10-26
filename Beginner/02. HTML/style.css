@@ -19,6 +19,8 @@ body {
   background: lightblue;
 }
 
+
+
 body .container {
   width: 80%;
   margin: auto;
@@ -39,6 +41,7 @@ body .container {
   background: white;
   -webkit-box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.2);
           box-shadow: 1rem 1rem 5rem rgba(0, 0, 0, 0.2);
+  font-size: 4rem;
 }
 
 body .container h1 {
